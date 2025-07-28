@@ -1,6 +1,7 @@
 const express = require('express');
 const Web3 = require('web3').Web3;
 const ejs = require('ejs');
+const path = require('path');
 const app = express();
 
 // Connect to an Ethereum node (e.g., Infura)
