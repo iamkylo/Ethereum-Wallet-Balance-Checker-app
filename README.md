@@ -4,7 +4,8 @@ A sleek, modern web application that lets users check the balance of any Ethereu
 
 ## 🚀 Live Demo
 
-> 
+
+> https://ethereum-wallet-balance-checker-app.vercel.app/
 
 ---
 
