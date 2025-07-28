@@ -4,7 +4,7 @@ const ejs = require('ejs');
 const app = express();
 
 // Connect to an Ethereum node (e.g., Infura)
-const web3 = new Web3('https://mainnet.infura.io/v3/3329518ad3e54e86b718c677b0100c2b'); // Replace with your Infura API URL
+const web3 = new Web3(process.env.INFURA_URL); // Replace with your Infura API URL
 
 // Set the view engine to EJS
 app.set('view engine', 'ejs');
